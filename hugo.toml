@@ -77,6 +77,10 @@ animate = true
     #newPage = false
 
 [[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-linkedin"
+url = "https://www.linkedin.com/in/jairo-lozano-carballo-22666b101/"
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
 icon = "fab fa-youtube"
 url = "https://www.youtube.com/channel/UCdn4qh2I9-BTLTDywRKgksQ"
 
@@ -84,9 +88,9 @@ url = "https://www.youtube.com/channel/UCdn4qh2I9-BTLTDywRKgksQ"
 icon = "fab fa-github"
 url = "https://github.com/jairogloz"
 
-[[params.hero.socialLinks.customIcons]]
-icon = "/images/icon.png"
-url = "https://example.com"
+#[[params.hero.socialLinks.customIcons]]
+#icon = "/images/icon.png"
+#url = "https://example.com"
 
 [params.about]
 enable = true
