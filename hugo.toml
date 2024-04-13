@@ -30,7 +30,7 @@ weight = 2
 [params]
 title = "Jairo Lozano"
 description = "Text about my cool site"
-favicon = "/fav.png"
+favicon = "/images/icon.png"
 useBootstrapCDN = false
 mathjax = false
 animate = true
@@ -43,7 +43,7 @@ animate = true
 
   [params.navbar]
   align = "ms-auto"
-  brandName = "Hugo Profile"
+  brandName = "Jairo"
   disableSearch = false
 
     [params.navbar.stickyNavBar]
@@ -61,10 +61,10 @@ animate = true
   [params.hero]
   enable = true
   intro = "Hi, my name is"
-  title = "Isabella."
-  subtitle = "I build things for the web"
-  content = "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-  image = "/images/hero.svg"
+  title = "Jairo Lozano."
+  subtitle = "Crafting robust backend solutions. Let's build something great."
+  content = "👋 I'm a backend developer with a passion for building powerful applications using Golang 🐹. From sleek APIs to robust systems, I bring ideas to life with code. Let’s create something awesome together!"
+  image = "/images/hero.jpg"
 
     [params.hero.bottomImage]
     enable = true
@@ -85,7 +85,7 @@ icon = "fab fa-x-twitter"
 url = "https://example.com"
 
 [[params.hero.socialLinks.customIcons]]
-icon = "/fav.png"
+icon = "/images/icon.png"
 url = "https://example.com"
 
   [params.about]
@@ -93,91 +93,59 @@ url = "https://example.com"
   title = "About Me"
   image = "/images/me.png"
   content = """
-I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+I'm a software developer who thrives on challenges and constantly seeks to hone my skills. My passion lies in backend development, where I get to solve complex problems and create robust solutions. I'm currently working at a startup called Bayonet, where we empower online businesses to combat online fraud.
 
-I am currently working on a project that will be used to help people find the best way to get around the city."""
+In my downtime, I love to strum the guitar and create my own songs. It's a creative outlet that complements my technical work. I'm a lifelong learner, always eager to explore new technologies and concepts.
+"""
 
     [params.about.skills]
     enable = true
     title = "Here are a few technologies I've been working with recently:"
-    items = [ "HTML", "CSS", "JavaScript", "React", "Node", "Express" ]
+    items = [ "Backend Development", "Golang", "Software Architecture", "Docker", "Unit Testing", "MongoDB", "MySQL" ]
 
   [params.experience]
   enable = true
 
     [[params.experience.items]]
-    job = "Senior Software Developer"
-    company = "Facebook"
-    companyUrl = "https://example.com"
-    date = "Jan 2022 - present"
-    content = "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+    job = "Senior Backend Developer"
+    company = "Bayonet"
+    companyUrl = "https://www.bayonet.io/"
+    date = "May 2019 - present"
+    content = "I am currently working as a senior backend developer at [Bayonet](https://www.bayonet.io/) remotely. As a Senior Backend Developer at Bayonet, my primary responsibility is to develop robust and secure backend services. These services are crucial as they enable our customers to access their data seamlessly and control their fraud prevention rules effectively. I strive to ensure that these services are not only reliable and efficient but also user-friendly, making it easier for our customers to manage their online security."
 
-      [params.experience.items.featuredLink]
-      enable = true
-      name = "View the project"
-      url = "https://example.com"
+      #[params.experience.items.featuredLink]
+      #enable = true
+      #name = "View the project"
+      #url = "https://example.com"
 
     [[params.experience.items]]
-    job = "Software Developer"
-    company = "Amazon"
-    companyUrl = "https://example.com"
-    date = "Sep 2020 - Dec 2021"
-    content = """
-I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+    job = "Lead VR/AR Developer"
+    company = "Blacklabs"
+    companyUrl = "https://www.blacklabs.mx/"
+    date = "Jun 2017 - May 2019"
+    content = "During my tenure as Lead VR/AR Developer at [Blacklabs](https://www.blacklabs.mx/) in Chihuahua, Mex., I was deeply involved in creating immersive VR/AR projects primarily for educational purposes. I had the opportunity to work with cutting-edge technologies like Unity for game development and Microsoft's HoloLens for mixed reality experiences. These projects aimed to revolutionize learning by creating interactive and engaging educational content, thereby making complex concepts easier to understand and more accessible for students."
 
-- Lead backend developer for a product.
-- Created a frontend design for a product.
-"""
-
-      [params.experience.items.featuredLink]
-      enable = true
-      url = "https://example.com"
+      #[params.experience.items.featuredLink]
+      #enable = true
+      #url = "https://example.com"
 
       [params.experience.items.info]
       enable = true
-      content = "I worked as a software developer for more than one year in Amazon."
+      content = "I worked as a software developer for two years in Blacklabs."
 
     [[params.experience.items]]
-    job = "Junior Software Developer"
-    company = "Apple"
-    companyUrl = "https://example.com"
-    date = "Jan 2020 - Aug 2020"
-    content = """
-I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-- Lead backend developer for a product.
-- Created a frontend design for a product.
-"""
+    job = "Software Developer"
+    company = "Los Paisanos Autobuses"
+    companyUrl = "https://lospaisanosautobuses.com/"
+    date = "Jun 2016 - Jun 2017"
+    content = "During my tenure as a Software Developer at Los Paisanos Autobuses, I was instrumental in building a comprehensive system that handled a multitude of tasks. This included facilitating ticket purchases, assigning bus seats, managing expenses and revenue, and overseeing bus maintenance. What I found particularly engaging about this role was the challenge of developing a robust database for handling reservations. To accomplish this, I studied the design of airline databases and adapted their best practices to our needs. This experience not only honed my technical skills but also gave me valuable insights into the intricacies of database design and management."
 
       [params.experience.items.info]
       enable = false
 
       [params.experience.items.featuredLink]
-      enable = true
+      enable = false
       url = "https://example.com"
-
-    [[params.experience.items]]
-    job = "UI/UX Designer"
-    company = "Netflix"
-    companyUrl = "https://example.com"
-    date = "June 2017 - Nov 2019"
-    content = """
-I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-- Lead backend developer for a product.
-- Created a frontend design for a product.
-"""
-
-      [params.experience.items.featuredLink]
-      enable = true
-      url = "https://example.com"
-
-    [[params.experience.items]]
-    job = "Product Designer"
-    company = "Google"
-    companyUrl = "https://example.com"
-    date = "Feb 2016 - Mar 2017"
-    content = "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
   [params.education]
   enable = true
@@ -245,7 +213,7 @@ Extracurricular Activities
     image = "/images/achievment.jpg"
 
     [[params.achievements.items]]
-    title = "Hugo Profile"
+    title = "Jairo Lozano"
     content = "Developed a theme and getting 1K+ downloads per month."
     url = "https://github.com/gurusabarish/hugo-profile"
     image = "/images/achievment.jpg"
